@@ -3,7 +3,7 @@ import pywhatkit
 import keyboard
 import time
 from datetime import datetime
-contatos = ['phone number']
+contatos = ['telephone numbers']
 while len(contatos) >= 1:
     pywhatkit.sendwhatmsg(contatos[0],'Vamos programar!', datetime.now().hour,datetime.now().minute +2)
     pywhatkit.sendwhatmsg_to_group("Bazp8bzgvRs7wKxfsvyJJI", 'Testando', datetime.now().hour,datetime.now().minute +2)
